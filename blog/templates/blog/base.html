@@ -16,6 +16,9 @@
         <title>ThoughtTrail - {{ title }}</title>
     {% else %}
         <title>ThoughtTrail</title>
+        <title>ThoughTrail - {{ title }}</title>
+    {% else %}
+        <title>ThoughTrail</title>
     {% endif %}
   </head>
   <body>
@@ -24,6 +27,7 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
             <div class="container">
             <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">ThoughtTrail</a>
+            <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">ThoughTrail</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
