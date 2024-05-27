@@ -28,6 +28,10 @@ ul {
   font-weight: 500;
 }
 
+.navbar-brand {
+      font-family: 'Abril Fatface', cursive;
+}
+
 .content-section {
   background: #ffffff;
   padding: 10px 20px;
